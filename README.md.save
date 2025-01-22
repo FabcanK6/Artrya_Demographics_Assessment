@@ -1,0 +1,25 @@
+# Artrya Demographics Assessment
+
+## Project Overview
+This project explores the significance of demographic categories in relation to CAD (coronary artery disease) diagnosis. It highlights how finer details in demographics can enhance the classification of subjects, offering deeper insights into the disease.
+
+## Dataset
+The analysis is based on the `Artrya_primary_dataset.json` file. This dataset includes various demographic and clinical features related to coronary artery disease. Note that the data used in this project is anonymized to protect patient privacy.
+
+## Key Findings
+The analysis revealed that the demographic details provided in the dataset are not granular enough to fully capture the complexities of CAD diagnosis. Further classification and detailing could help make these insights clearer and more actionable. 
+
+If I were to design a study aimed at collecting race/ethnicity data in as much detail as possible, I would strongly consider both the scientific objectives and the social and cultural contexts of the study population. By implementing a detailed and culturally sensitive approach to collecting race and ethnicity data, I can gain a more nuanced understanding of health disparities, cultural influences, and social determinants of health. This careful categorization can ultimately lead to more targeted and effective interventions.
+
+## Project Structure
+- `notebooks/`: Contains the Jupyter Notebook with the analysis.
+- `data/`: Includes the dataset file `Artrya_primary_dataset.json`.
+- `images/`: Contains visualizations and plots generated during the analysis.
+
+## Running Instructions
+1. Ensure you have Python and Jupyter Notebook installed.
+2. Place the dataset file `Artrya_primary_dataset.json` in the `data` directory.
+3. Launch Jupyter Notebook from the project directory:
+   ```bash
+   jupyter notebook
+
